@@ -25,7 +25,8 @@ descriptions. It uses the Wearable Data Layer in Google Play services. That is u
 direct Bluetooth connection, but when the devices aren't directly connected Google Play
 services may relay the data over an encrypted connection. The data is only delivered to watches
 paired with your phone and signed into your account. It is never sent to the developer or
-anyone else.
+anyone else. In the other direction, the watch app tells the phone its version number and
+the watch's device name, which the phone shows under Settings > About.
 
 ## Settings
 
